@@ -1,0 +1,6 @@
+{
+  "name": "SMS Messenger",
+  "description": "A feature-rich SMS and MMS client designed with Material Design 3, allowing you to send, receive, search, and manage your messages as your default SMS application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
