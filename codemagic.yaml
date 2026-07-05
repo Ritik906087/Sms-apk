@@ -5,6 +5,7 @@ workflows:
     environment:
       java: 17
     scripts:
+      - gradle wrapper --gradle-version 8.7
       - chmod +x gradlew
       - ./gradlew assembleDebug
     artifacts:
