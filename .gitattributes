@@ -1,0 +1,23 @@
+# Force Git to treat binary files as binary (do not perform line ending conversions)
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.bin binary
+
+# Ensure script files use Unix line endings (LF) on all platforms
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Standard text files
+*.kt text diff=kotlin
+*.kts text
+*.xml text
+*.properties text
+*.json text
+*.yml text
+*.yaml text
+*.md text
