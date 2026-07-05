@@ -5,6 +5,7 @@ workflows:
     environment:
       java: 17
     scripts:
+      - python3 -c "import base64; open('debug.keystore', 'wb').write(base64.b64decode(open('debug.keystore.base64', 'r').read().strip()))"
       - gradle wrapper --gradle-version 9.3.1
       - chmod +x gradlew
       - ./gradlew assembleDebug
